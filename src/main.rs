@@ -2,7 +2,7 @@
 #![no_main]
 #![feature(type_alias_impl_trait)]
 
-use defmt::*;
+use defmt::info;
 use embassy_executor::Spawner;
 use embassy_rp::gpio;
 use embassy_time::{Duration, Timer};
@@ -16,7 +16,6 @@ async fn main(_spawner: Spawner) {
 
     // Create LED
     let mut led = Output::new(p.PIN_25, Level::Low);
-
     // Loop
     loop {
         // Log

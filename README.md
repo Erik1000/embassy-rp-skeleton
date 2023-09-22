@@ -22,13 +22,20 @@ if you _aren't_ using a debugger and want the runner to flash the firmware via U
 [`picotool`][13], etc.) then see: [Alternative Runners][14]
 
 ## Table of Contents
-1. [Requirements](#requirements)
-2. [Setup](#setup)
-    1. [System Setup](#system-setup)
-    2. [Probe Setup](#probe-setup)
-    3. [Hardware Setup](#hardware-setup)
-3. [Usage](#usage)
-6. [Appendix](#appendix)
+- [Table of Contents](#table-of-contents)
+- [Requirements](#requirements)
+- [Setup](#setup)
+  - [System Setup](#system-setup)
+  - [Probe Setup](#probe-setup)
+  - [Hardware Setup](#hardware-setup)
+    - [Connecting the Raspberry Pi Pico Debug Probe](#connecting-the-raspberry-pi-pico-debug-probe)
+    - [Raspberry Pi Pico Dev Board](#raspberry-pi-pico-dev-board)
+- [Usage](#usage)
+    - [Running](#running)
+    - [Logging](#logging)
+- [Appendix](#appendix)
+    - [Documentation](#documentation)
+    - [Resources](#resources)
 
 ## Requirements
 * Ubuntu
