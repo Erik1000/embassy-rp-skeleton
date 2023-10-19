@@ -1,5 +1,5 @@
 [package]
-name = "embassy-rp-skeleton"
+name = "pico-tft-display"
 version = "0.1.0"
 edition = "2021"
 
