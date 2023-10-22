@@ -4,6 +4,11 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+# display
+embedded-graphics-framebuf = "0.5"
+gc9a01-rs = { version = "0.1" }
+embedded-graphics = { version = "0.8" }
+tinybmp = { version = "0.5" }
 cortex-m = { version = "0.7.6", features = ["critical-section-single-core"] }
 cortex-m-rt = "0.7.0"
 
